@@ -16,8 +16,6 @@ public class CharacterOccurence {
 		}
 		
 		System.out.println("Character " + ch + " occurred " + count + " times ");
-
-		
 		
 	}
 
