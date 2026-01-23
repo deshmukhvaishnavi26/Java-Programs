@@ -7,22 +7,22 @@ public class CountUpperLower {
 		// Count Capital and Small Letters in a string
 		
 		String str = "AutoMation Testing";
-		int capital = 0;
-		int small = 0;
+		int upper = 0;
+		int lower = 0;
 		
 		for(int i=0; i<str.length(); i++) {
 			char ch = str.charAt(i);
 			
 			if(ch>= 'A' && ch<= 'Z') {
-				capital++;
+				upper++;
 			}
 			else if(ch>= 'a' && ch <= 'z') {
-				small++;
+				lower++;
 			}
 		}
 		
-		System.out.println("Capital letters : " + capital);
-		System.out.println("Small letters : " + small);
+		System.out.println("Capital letters : " + upper);
+		System.out.println("Small letters : " + lower);
 
 	}
 
