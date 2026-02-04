@@ -18,6 +18,7 @@ public class RemoveUsingIterator {
 		
 		while(itr.hasNext()) {
 			String value = itr.next();
+			System.out.println(value);
 			
 			if(value.equalsIgnoreCase("python") || value.equalsIgnoreCase("automation")) {
 				itr.remove();
